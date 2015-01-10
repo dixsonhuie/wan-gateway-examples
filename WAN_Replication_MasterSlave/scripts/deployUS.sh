@@ -1,6 +1,6 @@
 . setExampleEnv.sh
 
-cd ../deploy
+
 # PLEASE replace localhost with relevant HOSTNAME in production
 
 export LOOKUPLOCATORS=localhost:4266
