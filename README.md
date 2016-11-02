@@ -16,7 +16,9 @@ The example of WAN Gateway allows for the implementation of a pass-through repli
 
 http://docs.gigaspaces.com/sbp/wan-gateway-pass-through-replication.html
 
+Wan gateway discovery can be configured using network configuration file to translate ip addresses 
 
+http://docs.gigaspaces.com/xap120adm/network-over-nat.html
 
 #### License
 Copyright 2015 GigaSpaces Technologies Inc.
