@@ -20,14 +20,9 @@
 
     <os-events:annotation-support />
 
-    <os-core:embedded-space id="space" name="wanSpaceGB"  gateway-targets="gatewayTargets" />
+    <os-core:embedded-space id="space" name="wanSpaceGB" />
     <os-core:giga-space id="gigaSpace" space="space" />
 
     <os-core:giga-space-context />
-
-    <os-gateway:targets id="gatewayTargets"  local-gateway-name="GB">
-        <os-gateway:target name="US"/> 
-        <os-gateway:target name="HK"/>
-    </os-gateway:targets>
 
 </beans>
