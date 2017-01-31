@@ -11,6 +11,6 @@ set EXT_JAVA_OPTIONS=%EXT_JAVA_OPTIONS% -Dcom.gigaspaces.start.httpPort=9713
 set EXT_JAVA_OPTIONS=%EXT_JAVA_OPTIONS% -Dcom.gs.zones=GB
 
 rem Modify this as needed
-set GSC_JAVA_OPTIONS=-Xmx128m
+set XAP_GSC_OPTIONS=-Xmx128m
 
 %GS_HOME%\bin\gs-agent.bat gsa.gsm 1 gsa.gsc 2
